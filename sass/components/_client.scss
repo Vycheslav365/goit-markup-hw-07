@@ -1,0 +1,46 @@
+.client {
+	padding: 94px 0;
+}
+
+.client-title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: $color-title;
+}
+
+.client-ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.client-link {
+	height: 100px;
+	width: 170px;
+	margin-right: 30px;
+	border: 1px solid #AFB1B8;
+	box-sizing: border-box;
+	border-radius: 4px;
+	fill: #AFB1B8;
+	transition: $transition;
+	transition-timing-function: $timing;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&:hover,
+	&:focus {
+		fill: $color-hover;
+		cursor: pointer;
+		border: 1px solid $color-hover;
+	}
+}
+
+.client-li:last-child {
+	margin-right: 0;
+}

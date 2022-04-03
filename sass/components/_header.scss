@@ -1,0 +1,105 @@
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.header {
+	background: #fff;
+	border-bottom: 1px solid #ECECEC;
+}
+
+.top__line {
+	padding: 24.6px 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.top__line-logo {
+	color: #000;
+	font-family: $font-logo;
+	font-weight: bolder;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	margin-right: 90px;
+}
+
+.top__line-logo-web {
+	color: $color-hover;
+}
+
+.top__line-nav-ul {
+	display: flex;
+}
+
+.top__line-nav-li {
+	color: #000;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	margin-right: 48px;
+	align-content: center;
+	align-self: center;
+	transition: $transition;
+	transition-timing-function: $timing;
+	& :hover,
+  & :focus  {
+	color: $color-hover;
+	}
+	&:last-child{
+		margin-right: 300px;
+	}
+}
+
+.nav__border::after {
+	content: "";	
+	position: relative;
+	top: 29px;
+	display: block;
+	margin-bottom: -4px;
+	height: 4px;
+	border-radius: 2px;
+	background: $color-hover;	
+}
+.nav__border{
+	color: $color-hover;
+}
+.top__line-info {
+	fill: $gray;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.4;
+	letter-spacing: 0.02em;
+	display: flex;
+}
+
+.top__line-info a{
+	color: $gray;
+	display: flex;
+	align-self: center;
+}
+.top__line-info-email{
+	margin-right: 30px;
+	& :hover,
+  & :focus{
+		fill: $color-hover;
+		color: $color-hover;
+		transition: $transition;
+		transition-timing-function: $timing;
+}
+}
+.top__line-info-icon {
+	margin-right: 10px;
+	width: 16px;
+	height: 18px;
+}
+.top__line-info-tel  :hover,
+.top__line-info-tel  :focus{
+	fill: $color-hover;
+	color: $color-hover;
+	transition: $transition;
+	transition-timing-function: $timing;
+}
