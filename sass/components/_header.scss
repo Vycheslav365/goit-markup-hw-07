@@ -30,11 +30,12 @@
 	color: $color-hover;
 }
 
-.top__line-nav-ul {
+.top__line-ul {
 	display: flex;
+
 }
 
-.top__line-nav-li {
+.top__line-li {
 	color: #000;
 	font-weight: 500;
 	font-size: 14px;
@@ -45,28 +46,32 @@
 	align-self: center;
 	transition: $transition;
 	transition-timing-function: $timing;
+
 	& :hover,
-  & :focus  {
-	color: $color-hover;
+	& :focus {
+		color: $color-hover;
 	}
-	&:last-child{
+
+	&:last-child {
 		margin-right: 300px;
 	}
 }
 
 .nav__border::after {
-	content: "";	
+	content: "";
 	position: relative;
 	top: 29px;
 	display: block;
 	margin-bottom: -4px;
 	height: 4px;
 	border-radius: 2px;
-	background: $color-hover;	
+	background: $color-hover;
 }
-.nav__border{
+
+.nav__border {
 	color: $color-hover;
 }
+
 .top__line-info {
 	fill: $gray;
 	font-weight: 500;
@@ -74,30 +79,35 @@
 	line-height: 1.4;
 	letter-spacing: 0.02em;
 	display: flex;
+
+	& a {
+		color: $gray;
+		display: flex;
+		align-self: center;
+	}
 }
 
-.top__line-info a{
-	color: $gray;
-	display: flex;
-	align-self: center;
-}
-.top__line-info-email{
+
+.info-email {
 	margin-right: 30px;
+
 	& :hover,
-  & :focus{
+	& :focus {
 		fill: $color-hover;
 		color: $color-hover;
 		transition: $transition;
 		transition-timing-function: $timing;
+	}
 }
-}
-.top__line-info-icon {
+
+.info-icon {
 	margin-right: 10px;
 	width: 16px;
 	height: 18px;
 }
-.top__line-info-tel  :hover,
-.top__line-info-tel  :focus{
+
+.info-tel :hover,
+.info-tel :focus {
 	fill: $color-hover;
 	color: $color-hover;
 	transition: $transition;

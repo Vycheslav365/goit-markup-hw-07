@@ -27,7 +27,7 @@
 	box-sizing: border-box;
 	border-radius: 4px;
 	fill: #AFB1B8;
-	transition: $transition;
+	transition: $transition, border 250ms linear;
 	transition-timing-function: $timing;
 	display: flex;
 	align-items: center;

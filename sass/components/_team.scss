@@ -61,7 +61,7 @@
 .team-social-link {
 	display: flex;
 	justify-content: center;
-	transition: $transition;
+	transition: $transition, background 250ms linear;
 	transition-timing-function: $timing;
 	width: 44px;
 	height: 44px;

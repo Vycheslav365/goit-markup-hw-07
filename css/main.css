@@ -138,13 +138,13 @@ h6 {
   color: #2196F3;
 }
 
-.top__line-nav-ul {
+.top__line-ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.top__line-nav-li {
+.top__line-li {
   color: #000;
   font-weight: 500;
   font-size: 14px;
@@ -162,12 +162,12 @@ h6 {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.top__line-nav-li :hover,
-.top__line-nav-li :focus {
+.top__line-li :hover,
+.top__line-li :focus {
   color: #2196F3;
 }
 
-.top__line-nav-li:last-child {
+.top__line-li:last-child {
   margin-right: 300px;
 }
 
@@ -206,12 +206,12 @@ h6 {
       align-self: center;
 }
 
-.top__line-info-email {
+.info-email {
   margin-right: 30px;
 }
 
-.top__line-info-email :hover,
-.top__line-info-email :focus {
+.info-email :hover,
+.info-email :focus {
   fill: #2196F3;
   color: #2196F3;
   -webkit-transition: fill 250ms linear, color 250ms linear;
@@ -220,14 +220,14 @@ h6 {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.top__line-info-icon {
+.info-icon {
   margin-right: 10px;
   width: 16px;
   height: 18px;
 }
 
-.top__line-info-tel :hover,
-.top__line-info-tel :focus {
+.info-tel :hover,
+.info-tel :focus {
   fill: #2196F3;
   color: #2196F3;
   -webkit-transition: fill 250ms linear, color 250ms linear;
@@ -466,8 +466,8 @@ h6 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-transition: fill 250ms linear, color 250ms linear;
-  transition: fill 250ms linear, color 250ms linear;
+  -webkit-transition: fill 250ms linear, color 250ms linear, background 250ms linear;
+  transition: fill 250ms linear, color 250ms linear, background 250ms linear;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   width: 44px;
@@ -536,8 +536,8 @@ h6 {
           box-sizing: border-box;
   border-radius: 4px;
   fill: #AFB1B8;
-  -webkit-transition: fill 250ms linear, color 250ms linear;
-  transition: fill 250ms linear, color 250ms linear;
+  -webkit-transition: fill 250ms linear, color 250ms linear, border 250ms linear;
+  transition: fill 250ms linear, color 250ms linear, border 250ms linear;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   display: -webkit-box;
@@ -655,8 +655,8 @@ a.footer__logo {
   background-position: center;
   background-color: rgba(255, 255, 255, 0.1);
   margin-right: 10px;
-  -webkit-transition: fill 250ms linear, color 250ms linear;
-  transition: fill 250ms linear, color 250ms linear;
+  -webkit-transition: fill 250ms linear, color 250ms linear, background 250ms linear;
+  transition: fill 250ms linear, color 250ms linear, background 250ms linear;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
